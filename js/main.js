@@ -1,7 +1,3 @@
-// setTimeout(() => {
-// 	alert("Seja Bem vindo site em Obras")
-// },5000)
-
 // Horario
 
 // Hora
@@ -11,7 +7,6 @@ let min = data.getMinutes();
 let seg = data.getSeconds();
 
 // Dia
-
 let dia = data.getDate();
 let mes = data.getMonth()+1;
 let ano = data.getFullYear();
@@ -68,14 +63,14 @@ const content =[
 ];
 
 const exibir = content.map(( form )=>{
-	return conteudo.innerHTML += `<div class=" mt-3 mb-3">
+	return conteudo.innerHTML += `<div class="mt-3 mb-3">
 			<div class="card mt-3">
 				<div class="card-body">
 					<div class="float-left">
 						<div>
 							<img src="${form.img}" width="100" class="image-top">
 						</div>
-						<div>
+						<div class="card-content">
 							<div class="card-title mb-3">
 								<p class="text-center text-muted">${form.title}</p>
 							</div>
@@ -97,4 +92,10 @@ const exibir = content.map(( form )=>{
 				</div>
 			</div>
 		</div>`;
-})
+});
+
+// Funcão dos artigos
+
+$(document).ready(function(){
+	$('#article').hide()
+});
