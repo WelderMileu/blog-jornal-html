@@ -1,5 +1,16 @@
 // Horario
 
+const pendencias = [
+	{ desc: "Fazer animação do article"},{ desc:"Colocar o article de forma dinamica" }
+]
+
+const open = pendencias.map((arr) => {
+	setTimeout(function(){
+		alert(arr.desc)
+	},1000)
+})
+
+
 // Hora
 let data = new Date();
 let hora = data.getHours();
