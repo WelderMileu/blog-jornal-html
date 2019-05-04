@@ -68,7 +68,7 @@ const content =[
 ];
 
 const exibir = content.map(( form )=>{
-	return conteudo.innerHTML += `<div class="container mt-3 mb-3">
+	return conteudo.innerHTML += `<div class=" mt-3 mb-3">
 			<div class="card mt-3">
 				<div class="card-body">
 					<div class="float-left">
