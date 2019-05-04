@@ -111,12 +111,13 @@
 .nav-item{
 	display: block;
 	padding: 0px 15px;
-	transition: 1s;
+	transition: .5s;
 }
 
 .nav-item:hover{
-	border-left: 2px solid blue;
-	border-bottom: 2px solid blue;
+	/*border-left: 2px solid blue;
+	border-bottom: 2px solid blue;*/
+	transform: scale(1.2);
 }
 
 .nav-link{
