@@ -1,0 +1,143 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'calibri', sans-serif;
+}
+
+.container{
+	display: flex;
+	margin:auto;
+	width: 900px;
+	overflow: hidden;
+}
+
+.dest{
+	margin: auto;
+	width: 900px;
+}
+
+.navbar{
+	background-color: rgba(75,0,130 ,1);
+	width: 100%;
+	position: fixed;
+	margin-top:-115px;
+}
+
+.mt-3{
+	margin-top:3%;
+}
+
+.pt-5{
+	margin-top:10%;	
+}
+
+.mb-3{
+	margin-bottom: 3%; 
+}
+
+.pt-3{
+	padding-top:15px; 
+}
+
+.form-control{
+	border:1px solid #e6e6e6;
+	border-radius:5px;
+	padding: 3px;
+	padding-left:10px;
+	transition: .5s;
+}
+
+.form-control:focus{
+	border:1px solid rgba(0,191,255 ,.5);
+	background-color: #f1f1f1;
+	color:rgba(105,105,105 ,1);
+}
+
+.btn{
+	padding: 4px 10px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	transition: .5s;
+}
+
+.btn:hover{
+	opacity: 0.5;
+}
+
+.btn-primary{
+	background-color: #008B8B;
+	color:#fff;
+}
+
+.btn-integra{
+	width: 100%;
+	padding:5px 10px;
+	font-size:20px;  
+	background-color: rgba(169,169,169 ,1);
+	color: #fff;
+}
+
+.sarch{
+	margin-left:50%; 
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-muted{
+	color:rgba(169,169,169 ,1);
+}
+
+#ano{
+	font-size: 11px;
+	margin-left: 120px;
+	font-family: 'roboto',sans-serif;
+}
+
+/*Nosso card*/
+img{
+	height: 300px;
+	border-radius:5px;
+}
+
+.card{
+	border-radius:2px;
+	border:1px solid #e6e6e6;
+	width: 500px;
+	height: 500px;
+}
+
+.card-body{
+	padding: 20px;
+}
+
+.card-title p{
+	font-size: 30px;
+}
+
+.card-text p{
+	padding: 10px;
+	font-family: 'roboto', sans-serif;
+}
+
+.card-footer{
+	padding: 20px;
+	text-align: center;
+}
+
+.image-top{
+	width: 100%;
+}
+
+/*logo*/
+
+.logo i{
+	font-size: 50px;
+	color: #fff
+}
+
+.logo p{
+	color:#fff;
+}
