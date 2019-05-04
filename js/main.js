@@ -24,6 +24,6 @@ const calendario = document.getElementById("ano");
 
 calendario.innerHTML = `${horario}`;
 
-setTimeout(() => {
-	alert("Seja Bem vindo site em Obras")
-},5000)
+// setTimeout(() => {
+// 	alert("Seja Bem vindo site em Obras")
+// },5000)

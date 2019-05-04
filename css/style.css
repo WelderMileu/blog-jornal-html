@@ -17,7 +17,7 @@
 }
 
 .navbar{
-	background-color: rgba(75,0,130 ,1);
+	background-color: rgba(0,128,0 ,1);
 	width: 100%;
 	position: fixed;
 	margin-top:-115px;
@@ -37,6 +37,14 @@
 
 .pt-3{
 	padding-top:15px; 
+}
+
+.pl-3{
+	padding-left:10px; 
+}
+
+.float-left{
+	display: flex;
 }
 
 .form-control{
@@ -79,7 +87,7 @@
 }
 
 .sarch{
-	margin-left:50%; 
+	margin-left:40%; 
 }
 
 .text-center{
@@ -96,6 +104,27 @@
 	font-family: 'roboto',sans-serif;
 }
 
+.nav{
+	margin-left: 20px;
+}
+
+.nav-item{
+	display: block;
+	padding: 0px 15px;
+	transition: 1s;
+}
+
+.nav-item:hover{
+	border-left: 2px solid blue;
+	border-bottom: 2px solid blue;
+}
+
+.nav-link{
+	text-decoration: none;
+	color:#fff;
+}
+
+
 /*Nosso card*/
 img{
 	height: 300px;
@@ -105,8 +134,8 @@ img{
 .card{
 	border-radius:2px;
 	border:1px solid #e6e6e6;
-	width: 500px;
-	height: 500px;
+	width: 700px;
+	height: 350px;
 }
 
 .card-body{
@@ -125,6 +154,16 @@ img{
 .card-footer{
 	padding: 20px;
 	text-align: center;
+}
+
+.card-description{
+	width: 300px;
+	padding: 25px;
+}
+
+.card-description p{
+	font-family: 'calibri',sans-serif;
+	font-size: 13px;
 }
 
 .image-top{
